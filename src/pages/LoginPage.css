@@ -1,0 +1,90 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light gray for contrast */
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust size as needed */
+  }
+  
+  .login-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: #3e4a41; /* Olive green */
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .login-box input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .forgot-password {
+    color: #6f4f28; /* Brown */
+    text-align: right;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-btn {
+    background-color: #6f4f28; /* Brown */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #5a3a1f; /* Darker brown */
+  }
+  
+  .register-info {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .register-info a {
+    color: #6f4f28; /* Brown */
+    text-decoration: none;
+  }
+  
+  .register-info a:hover {
+    text-decoration: underline;
+  }
+  
