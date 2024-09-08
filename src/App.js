@@ -9,7 +9,7 @@ import BudgetTracking from './pages/BudgetTracking'; // Make sure this path is c
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/check-availability" element={<CheckAvailability />} />
